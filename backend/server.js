@@ -9,7 +9,7 @@ app.use(cors());
 let tasks = [];
 
 // Rota para buscar e retornar todas as tarefas
-app.get("/tasks", (res) => {
+app.get("/tasks", (req, res) => {
   res.json(tasks);
 });
 
@@ -57,4 +57,3 @@ app.put("/tasks/:id", (req, res) => {
   app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
   });
-  
