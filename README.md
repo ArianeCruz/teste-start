@@ -26,7 +26,7 @@ npm install
 ```
 node server.js
 ```
-5. Roda servidor frontend:
+5. Rodar servidor frontend:
 ```
 npm run serve
 ```
